@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-steganography-master.flake = false;
+  inputs.src-steganography-master.ref   = "refs/heads/master";
   inputs.src-steganography-master.owner = "treeform";
-  inputs.src-steganography-master.ref   = "master";
   inputs.src-steganography-master.repo  = "steganography";
   inputs.src-steganography-master.type  = "github";
   
